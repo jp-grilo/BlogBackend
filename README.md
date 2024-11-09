@@ -35,8 +35,12 @@ O projeto usa PostgreSQL como banco de dados. A string de conexão está definid
 ### Script de Build e Execução
 Um script PowerShell está disponível para automatizar o processo de build e execução do projeto através do comando:
 
-> build-and-run.ps1
+```sh
+build-and-run.ps1
+```
+
 
 ## Acessando a API
 Após executar o script, juntamente com o FrontEnd, a aplicação estará disponível em `http://localhost:5023`. 
+
 Você pode acessar a documentação do Swagger em `http://localhost:5023/swagger`.
